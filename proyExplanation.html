@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900&display=swap" rel="stylesheet">
+    <title>Explicación de Proyecto</title>
+</head>
+<body>
+    <h1>Corre la voz</h1>
+    <div class="center">
+        <div class="problem">
+            <h2>Problem&aacute;tica</h2>
+            <p>
+                Se planea resolver la problemática de movilidad y falta de 
+                información en la Ciudad de México, específicamente cuando 
+                se llevan a cabo manifestaciones. Aunado a esto, se pretende 
+                promover la participación de los ciudadanos a las marchas que les 
+                sean de interés, ya que normalmente existe inconformidad acerca de otras 
+                problemáticas en la ciudad y como ciudadano se tiene el derecho de poder 
+                expresar el desagrado que cause cualquiera de ellas.
+            </p>
+        </div>
+
+        <blockquote cite="https://www.mundifrases.com/tema/protesta/">
+            <q>Grito que no creo en nada y que todo es absurdo, 
+            pero no puedo dudar de mi grito y necesito, al menos, creer en mi protesta.</q>
+            <a href="https://amzn.to/39TWcbP" target="blank"><cite>Albert Camus</cite></a>
+        </blockquote>
+
+        <h2>Casos de Usuario</h2>
+        <ol>
+            <li class="first">
+                Yo como consultante necesito obtener las fechas y ubicaciones de 
+                huelgas/marchas en la ciudad de méxico para evitar y mejorar mi 
+                movilidad por la ciudad esos días.
+            </li>
+            <li class="second">
+                Yo como consultante necesito mantenerme informado sobre los movimientos 
+                sociales que están afectando al país y los ciudadanos para involucrarme 
+                y tener más participación ciudadana.
+            </li>
+            <li class="third">
+                Yo como consultante necesito actualizar la situación de la marcha para 
+                que los demás usuarios sepan cómo reaccionar o qué hacer.
+            </li>
+            <li class="fourth">
+                Yo como consultante necesito ver las actualizaciones de la marcha de los 
+                demás usuarios para interactuar y ver la evolución de la marcha
+            </li>
+            <li class="fifth">
+                Yo como consultante necesito compartir la información que estoy obteniendo 
+                del sitio a otros sitios para informar y lograr mayor alcance. 
+            </li>
+            <li class="sixth">
+                Yo como editor necesito estar pendiente de lo que se necesite publicar en 
+                la plataforma para apoyar a los demás usuarios a mejorar su movilidad.
+            </li>
+            <li class="seventh">
+                Yo como editor necesito informar correcta y verídicamente a los usuarios que 
+                ingresen a la plataforma para evitar que la movilidad se vea aún más afectada.
+            </li>
+            <li class="eighth">
+                Yo como editor necesito estar bien informado acerca de la problemática que se 
+                intenta resolver con la manifestación para poder invitar a ciudadanos a participar 
+                en ella si esa es su intención.
+            </li>
+            <li class="ninth">
+                Yo como editor necesito saber si la marcha que se está realizando es sin fines anárquicos 
+                para evitar que la seguridad de los usuarios se vea afectada.
+            </li>
+            <li class="tenth">
+                Yo como editor necesito informar a los demás usuarios cuáles son las vías y zonas afectadas 
+                por la manifestación para evitar crear más tráfico y liberar las vías de manera más eficiente.
+            </li>
+        </ol>
+        
+
+        <h3>Código a utilizar</h3>
+        <p>
+            El método get de la variable <var>router</var> funciona para crear las distintas rutas de la página.
+        </p>
+        <pre>
+            <code>
+                let router = require('express').Router();
+                let pagesController = require('../controllers/PagesController');
+                router.get('/', pagesController.homepage);
+                router.get('/acerca', pagesController.about);
+                router.get('/nombre', pagesController.name);
+                router.get('/*', pagesController.anyPage);
+                module.exports = router;
+            </code>
+        </pre>
+        <h3>Validator</h3>
+        <div class="image">
+            <img src="img/ss.png" alt="validator">
+        </div>
+    </div>
+</body>
+</html>
