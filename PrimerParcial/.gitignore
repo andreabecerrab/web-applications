@@ -3,4 +3,3 @@ build
 npm-debug.log
 .env
 .DS_Store
-sass_styles 
