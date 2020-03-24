@@ -8,4 +8,17 @@ h1 {
   font-family: "Lato", sans-serif;
 }
 
+.main-container {
+  height: 90%;
+  margin: 0;
+}
+
+.body-content {
+  width: 75%;
+}
+
+.tw-sidebar {
+  width: 25%;
+}
+
 /*# sourceMappingURL=styles.css.map */
