@@ -1,4 +1,59 @@
-html, body {
+.tw-sidebar {
+  background-color: #ffffff;
+  padding-top: 15px;
+}
+.tw-sidebar h5 {
+  color: #383376;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+.tw-sidebar h6 {
+  color: #0078d7;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+.tw-sidebar .row {
+  justify-content: space-between;
+}
+.tw-sidebar .header {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+.tw-sidebar .header .material-icons.md-dark {
+  color: #383376;
+}
+.tw-sidebar .col {
+  padding: 0px;
+}
+.tw-sidebar .tweets .tw-card {
+  margin-bottom: 0.5rem;
+}
+.tw-sidebar .tweets .card-body {
+  padding: 0.5rem;
+}
+.tw-sidebar .tweets .card-body .row {
+  margin: 0;
+  justify-content: inherit;
+}
+.tw-sidebar .tweets .card-body p {
+  margin: 0;
+}
+.tw-sidebar .tweets .card-body .material-icons.md-18 {
+  font-size: 18px;
+  color: #929aa1;
+}
+.tw-sidebar .tweets .card-body .tw-data {
+  margin-top: 1rem;
+  font-size: 14px;
+  font-weight: 600;
+}
+.tw-sidebar .tweets .tw-light {
+  color: #8c949c;
+  font-size: 14px;
+}
+
+html,
+body {
   margin: 0;
   height: 100%;
   font-family: "Lato", sans-serif;
@@ -9,16 +64,14 @@ h1 {
 }
 
 .main-container {
-  height: 90%;
   margin: 0;
 }
 
 .body-content {
-  width: 75%;
+  width: 80%;
+  background-color: #eff5fb;
 }
 
-.tw-sidebar {
-  width: 25%;
-}
+/*# sourceMappingURL=styles.scss.map */
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,3 +1,5 @@
+@import "sidebar.sass";
+@import "variables.sass";
 html,
 body {
   margin: 0;
@@ -8,13 +10,15 @@ h1 {
   font-family: "Lato", sans-serif;
 }
 .main-container {
-  height: 90%;
+  // height: 90%;
   margin: 0;
 }
 .body-content {
-  width: 75%;
+  width: 80%;
+  background-color: #eff5fb;
 }
 .tw-sidebar {
-  width: 25%;
+  @extend .tw-sidebar;
 }
+
 /*# sourceMappingURL=styles.scss.map */
