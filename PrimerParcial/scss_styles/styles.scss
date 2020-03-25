@@ -1,14 +1,13 @@
 @import "sidebar.sass";
+@import "login.sass";
 @import "variables.sass";
+//agregar los otros styles
 html,
 body {
   margin: 0;
   height: 100%;
-  font-family: "Lato", sans-serif;
 }
-h1 {
-  font-family: "Lato", sans-serif;
-}
+
 .main-container {
   // height: 90%;
   margin: 0;
@@ -16,6 +15,10 @@ h1 {
 .body-content {
   width: 80%;
   background-color: #eff5fb;
+  &-ext {
+    @extend .body-content;
+    width: 100%;
+  }
 }
 .tw-sidebar {
   @extend .tw-sidebar;

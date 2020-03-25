@@ -52,6 +52,20 @@
   font-size: 14px;
 }
 
+.body-login {
+  display: flex;
+  justify-content: center;
+}
+.body-login .card {
+  width: 70%;
+}
+.body-login .card .right {
+  background-color: #eefbff;
+}
+.body-login .card h4 {
+  font-weight: bold;
+}
+
 html,
 body {
   margin: 0;
@@ -67,9 +81,12 @@ h1 {
   margin: 0;
 }
 
-.body-content {
+.body-content, .body-content-ext {
   width: 80%;
   background-color: #eff5fb;
+}
+.body-content-ext {
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.scss.map */
