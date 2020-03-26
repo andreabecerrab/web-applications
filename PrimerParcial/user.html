@@ -18,44 +18,29 @@
   <body>
     <nav class="nav-header">MENU</nav>
     <div class=" row main-container">
-      <!-- log in -->
-      <div class="body-content-ext body-login">
-        <div class="card">
-          <div class="card-body">
-            <div class="row">
-              <div class="col right"></div>
-              <div class="col left">
-                <h4>Iniciar Sesión</h4>
-                <form>
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">Correo</label>
-                    <input
-                      type="email"
-                      class="form-control"
-                      placeholder="Ingresar correo electrónico"
-                    />
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputPassword1">Contraseña</label>
-                    <input
-                      type="password"
-                      class="form-control"
-                      placeholder=" Ingresa contraseña"
-                    />
-                  </div>
-                  <div class="row">
-                    <a class="font-light" href="signin.html">Registrarse</a>
-                    <button type="submit" class="btn btn-primary">
-                      Entrar
-                    </button>
-                  </div>
-                </form>
-                <button
-                  type="submit"
-                  class="btn btn-primary"
-                  onclick="window.location.href ='index.html';"
-                ></button>
-              </div>
+      <!-- user profile -->
+      <div class="body-content-ext body-profile">
+        <div class="row"><h5>Perfil Usuario</h5></div>
+        <div class="row">
+          <!-- profile data -->
+          <div class="col right">
+            <h6>Nombre</h6>
+            <div class="card profile-data">Andrea</div>
+            <h6>Apellido</h6>
+            <div class="card profile-data">Becerra</div>
+            <h6>Correo</h6>
+            <div class="card profile-data">andrea@gmail.com</div>
+            <h6>Fecha de nacimiento</h6>
+            <div class="card profile-data">01/09/1998</div>
+            <h6>Estado</h6>
+            <div class="card profile-data">CDMX</div>
+          </div>
+          <!-- profile interactions -->
+          <div class="col left">
+            <h5>Interraciones</h5>
+            <div class="card profile-interactions">
+              <!-- [] interactions -->
+              <div class="card interaction i-red">hola</div>
             </div>
           </div>
         </div>

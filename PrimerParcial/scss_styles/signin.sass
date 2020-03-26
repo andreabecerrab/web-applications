@@ -1,7 +1,5 @@
 @import "variables"
 @import "login.sass"
-
-
 .body-signin
     .card
         h4 
@@ -9,13 +7,13 @@
         .row
             margin-top: 5%
     @extend  .body-login
-    
 
 @media ( max-width: $breakpoint-m )
-    .right
-        display: none
+
     .body-signin
         padding: 10% 0%
+        .right
+            display: none
         .card
             width: 90%
         .row 
