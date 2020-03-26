@@ -14,7 +14,6 @@
     />
     <title>Corre la voz</title>
   </head>
-
   <body>
     <nav class="nav-header">MENU</nav>
     <div class=" row main-container">
@@ -36,7 +35,10 @@
             <div class="card profile-data">01/09/1998</div>
             <h6>Estado</h6>
             <div class="card profile-data">CDMX</div>
-            <button class="btn btn-primary">
+            <button
+              class="btn btn-primary"
+              onclick="window.location.href ='profile-edit.html';"
+            >
               Editar
               <i class="material-icons md-dark">edit</i>
             </button>
@@ -44,6 +46,11 @@
           <!-- profile interactions -->
           <div class="col left">
             <h5>Interraciones</h5>
+            <div class="row" style="margin: 0;">
+              <p>Total de interacciones:</p>
+              <p class=" font-weight-bold" style="margin-left: 15px;">8</p>
+            </div>
+
             <!-- [] interactions -->
             <div class="card profile-interactions">
               <!-- [] interection -->

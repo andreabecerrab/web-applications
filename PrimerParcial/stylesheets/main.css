@@ -251,7 +251,7 @@
   width: 30%;
 }
 .body-profile .right-edit {
-  width: 50%;
+  width: 60%;
 }
 .body-profile .right-edit p {
   padding: 0;
@@ -329,6 +329,19 @@
   background-color: transparent;
 }
 
+@media (max-width: 1130px) {
+  .body-profile .row {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  .body-profile .row .right, .body-profile .row .left, .body-profile .row .profile-interactions {
+    width: 92%;
+  }
+  .body-profile .row .right .btn, .body-profile .row .left .btn, .body-profile .row .profile-interactions .btn {
+    margin-bottom: 2rem;
+  }
+}
 html,
 body {
   margin: 0;
