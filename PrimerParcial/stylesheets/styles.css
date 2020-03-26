@@ -52,29 +52,153 @@
   font-size: 14px;
 }
 
-.body-login {
+.body-login, .body-signin {
+  padding: 10%;
   display: flex;
   justify-content: center;
 }
-.body-login .card {
-  width: 70%;
+.body-login .right, .body-signin .right {
+  background-image: url(../img/cover.jpg);
+  background-size: cover;
 }
-.body-login .card .right {
-  background-color: #eefbff;
+.body-login a, .body-signin a {
+  color: #5061ce;
 }
-.body-login .card h4 {
+.body-login a:hover, .body-signin a:hover {
+  color: #f44147;
+}
+.body-login .card, .body-signin .card {
+  width: 65%;
+}
+.body-login .card h4, .body-signin .card h4 {
   font-weight: bold;
+  margin-bottom: 30%;
+  color: #383376;
+}
+.body-login .card .form-control, .body-signin .card .form-control {
+  border: 0 transparent;
+  border-bottom: 2px solid #ced4da;
+  border-radius: 0rem;
+}
+.body-login .card input[type=password]:focus, .body-signin .card input[type=password]:focus, .body-login .card input[type=text]:focus, .body-signin .card input[type=text]:focus, .body-login .card input[type=email]:focus, .body-signin .card input[type=email]:focus, .body-login .card button[type=submit]:focus, .body-signin .card button[type=submit]:focus {
+  border-color: #fdd656;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset, 0 0 10px #fff9f1;
+  outline: 0 none;
+}
+.body-login .card .btn-primary, .body-signin .card .btn-primary {
+  background-color: #5061ce;
+  border-color: #5061ce;
+  width: 30%;
+}
+.body-login .card .row, .body-signin .card .row {
+  padding-right: 15px;
+  padding-left: 15px;
+  justify-content: space-between;
 }
 
+@media (max-width: 800px) {
+  .right {
+    display: none;
+  }
+
+  .body-login, .body-signin {
+    padding: 10% 0%;
+  }
+  .body-login .card, .body-signin .card {
+    width: 90%;
+  }
+  .body-login .row, .body-signin .row {
+    justify-content: space-evenly;
+    margin-top: 20%;
+  }
+}
+.body-login, .body-signin {
+  padding: 10%;
+  display: flex;
+  justify-content: center;
+}
+.body-login .right, .body-signin .right {
+  background-image: url(../img/cover.jpg);
+  background-size: cover;
+}
+.body-login a, .body-signin a {
+  color: #5061ce;
+}
+.body-login a:hover, .body-signin a:hover {
+  color: #f44147;
+}
+.body-login .card, .body-signin .card {
+  width: 65%;
+}
+.body-login .card h4, .body-signin .card h4 {
+  font-weight: bold;
+  margin-bottom: 30%;
+  color: #383376;
+}
+.body-login .card .form-control, .body-signin .card .form-control {
+  border: 0 transparent;
+  border-bottom: 2px solid #ced4da;
+  border-radius: 0rem;
+}
+.body-login .card input[type=password]:focus, .body-signin .card input[type=password]:focus, .body-login .card input[type=text]:focus, .body-signin .card input[type=text]:focus, .body-login .card input[type=email]:focus, .body-signin .card input[type=email]:focus, .body-login .card button[type=submit]:focus, .body-signin .card button[type=submit]:focus {
+  border-color: #fdd656;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset, 0 0 10px #fff9f1;
+  outline: 0 none;
+}
+.body-login .card .btn-primary, .body-signin .card .btn-primary {
+  background-color: #5061ce;
+  border-color: #5061ce;
+  width: 30%;
+}
+.body-login .card .row, .body-signin .card .row {
+  padding-right: 15px;
+  padding-left: 15px;
+  justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .right {
+    display: none;
+  }
+
+  .body-login, .body-signin {
+    padding: 10% 0%;
+  }
+  .body-login .card, .body-signin .card {
+    width: 90%;
+  }
+  .body-login .row, .body-signin .row {
+    justify-content: space-evenly;
+    margin-top: 20%;
+  }
+}
+.body-signin .card h4 {
+  margin-bottom: 5%;
+}
+.body-signin .card .row {
+  margin-top: 5%;
+}
+
+@media (max-width: 800px) {
+  .right {
+    display: none;
+  }
+
+  .body-signin {
+    padding: 10% 0%;
+  }
+  .body-signin .card {
+    width: 90%;
+  }
+  .body-signin .row {
+    justify-content: space-evenly;
+    margin-top: 20%;
+  }
+}
 html,
 body {
   margin: 0;
   height: 100%;
-  font-family: "Lato", sans-serif;
-}
-
-h1 {
-  font-family: "Lato", sans-serif;
 }
 
 .main-container {
@@ -89,6 +213,10 @@ h1 {
   width: 100%;
 }
 
-/*# sourceMappingURL=styles.scss.map */
+@media (max-width: 800px) {
+  .body-content, .body-content-ext {
+    width: 100%;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

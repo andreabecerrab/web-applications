@@ -1,6 +1,7 @@
+@import "variables.sass";
 @import "sidebar.sass";
 @import "login.sass";
-@import "variables.sass";
+@import "signin.sass";
 //agregar los otros styles
 html,
 body {
@@ -24,4 +25,8 @@ body {
   @extend .tw-sidebar;
 }
 
-/*# sourceMappingURL=styles.scss.map */
+@media (max-width: 800px) {
+  .body-content {
+    width: 100%;
+  }
+}

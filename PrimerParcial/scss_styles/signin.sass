@@ -1,0 +1,23 @@
+@import "variables"
+@import "login.sass"
+
+
+.body-signin
+    .card
+        h4 
+            margin-bottom: 5%
+        .row
+            margin-top: 5%
+    @extend  .body-login
+    
+
+@media ( max-width: $breakpoint-m )
+    .right
+        display: none
+    .body-signin
+        padding: 10% 0%
+        .card
+            width: 90%
+        .row 
+            justify-content: space-evenly
+            margin-top: 20%
