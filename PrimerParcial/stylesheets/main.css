@@ -1,18 +1,386 @@
-/* Error: semicolons aren't allowed in the indented syntax.
- *   ,
- * 1 | @import "variables";
- *   |                    ^
- *   '
- *   scss_styles/footer.sass 1:20  @import
- *   scss_styles/main.scss 6:9     root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: semicolons aren't allowed in the indented syntax.\a   \2577 \a 1 \2502  @import \"variables\";\a   \2502                     ^\a   \2575 \a   scss_styles/footer.sass 1:20  @import\a   scss_styles/main.scss 6:9     root stylesheet";
+.tw-sidebar {
+  background-color: #ffffff;
+  padding-top: 15px;
 }
+.tw-sidebar h5 {
+  color: #383376;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+.tw-sidebar h6 {
+  color: #0078d7;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+.tw-sidebar .row {
+  justify-content: space-between;
+}
+.tw-sidebar .header {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+.tw-sidebar .header .material-icons.md-dark {
+  color: #383376;
+}
+.tw-sidebar .col {
+  padding: 0px;
+}
+.tw-sidebar .tweets .tw-card {
+  margin-bottom: 0.5rem;
+}
+.tw-sidebar .tweets .card-body {
+  padding: 0.5rem;
+}
+.tw-sidebar .tweets .card-body .row {
+  margin: 0;
+  justify-content: inherit;
+}
+.tw-sidebar .tweets .card-body p {
+  margin: 0;
+}
+.tw-sidebar .tweets .card-body .material-icons.md-18 {
+  font-size: 18px;
+  color: #929aa1;
+}
+.tw-sidebar .tweets .card-body .tw-data {
+  margin-top: 1rem;
+  font-size: 14px;
+  font-weight: 600;
+}
+.tw-sidebar .tweets .tw-light {
+  color: #8c949c;
+  font-size: 14px;
+}
+
+.my-form .form-control, .body-profile .form-control, .body-login .card .form-control, .body-signin .card .form-control {
+  border: 0 transparent;
+  background-color: transparent;
+  border-bottom: 2px solid #ced4da;
+  border-radius: 0rem;
+}
+.my-form input[type=password]:focus, .body-profile input[type=password]:focus, .body-login .card input[type=password]:focus, .body-signin .card input[type=password]:focus, .my-form input[type=text]:focus, .body-profile input[type=text]:focus, .body-login .card input[type=text]:focus, .body-signin .card input[type=text]:focus, .my-form input[type=email]:focus, .body-profile input[type=email]:focus, .body-login .card input[type=email]:focus, .body-signin .card input[type=email]:focus, .my-form button[type=submit]:focus, .body-profile button[type=submit]:focus, .body-login .card button[type=submit]:focus, .body-signin .card button[type=submit]:focus {
+  border-color: #fdd656;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset, 0 0 10px #fff9f1;
+  outline: 0 none;
+}
+.my-form .btn-primary, .body-profile .btn-primary, .body-login .card .btn-primary, .body-signin .card .btn-primary {
+  background-color: #5061ce;
+  border-color: #5061ce;
+  width: 30%;
+}
+.my-form .add-col, .body-profile .add-col, .body-login .card .add-col, .body-signin .card .add-col {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+.my-form .add-col .btn, .body-profile .add-col .btn, .body-login .card .add-col .btn, .body-signin .card .add-col .btn {
+  height: 50%;
+}
+
+.body-login, .body-signin {
+  padding: 10%;
+  display: flex;
+  justify-content: center;
+}
+.body-login .right, .body-signin .right {
+  background-image: url(../img/cover.jpg);
+  background-size: cover;
+}
+.body-login a, .body-signin a {
+  color: #5061ce;
+}
+.body-login a:hover, .body-signin a:hover {
+  color: #f44147;
+}
+.body-login .card, .body-signin .card {
+  width: 65%;
+}
+.body-login .card h4, .body-signin .card h4 {
+  font-weight: bold;
+  margin-bottom: 30%;
+  color: #383376;
+}
+.body-login .card .row, .body-signin .card .row {
+  padding-right: 15px;
+  padding-left: 15px;
+  justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .body-login, .body-signin {
+    padding: 10% 0%;
+  }
+  .body-login .right, .body-signin .right {
+    display: none;
+  }
+  .body-login .card, .body-signin .card {
+    width: 90%;
+  }
+  .body-login .row, .body-signin .row {
+    justify-content: space-evenly;
+    margin-top: 20%;
+  }
+}
+.my-form .form-control, .body-profile .form-control, .body-login .card .form-control, .body-signin .card .form-control {
+  border: 0 transparent;
+  background-color: transparent;
+  border-bottom: 2px solid #ced4da;
+  border-radius: 0rem;
+}
+.my-form input[type=password]:focus, .body-profile input[type=password]:focus, .body-login .card input[type=password]:focus, .body-signin .card input[type=password]:focus, .my-form input[type=text]:focus, .body-profile input[type=text]:focus, .body-login .card input[type=text]:focus, .body-signin .card input[type=text]:focus, .my-form input[type=email]:focus, .body-profile input[type=email]:focus, .body-login .card input[type=email]:focus, .body-signin .card input[type=email]:focus, .my-form button[type=submit]:focus, .body-profile button[type=submit]:focus, .body-login .card button[type=submit]:focus, .body-signin .card button[type=submit]:focus {
+  border-color: #fdd656;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset, 0 0 10px #fff9f1;
+  outline: 0 none;
+}
+.my-form .btn-primary, .body-profile .btn-primary, .body-login .card .btn-primary, .body-signin .card .btn-primary {
+  background-color: #5061ce;
+  border-color: #5061ce;
+  width: 30%;
+}
+.my-form .add-col, .body-profile .add-col, .body-login .card .add-col, .body-signin .card .add-col {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+.my-form .add-col .btn, .body-profile .add-col .btn, .body-login .card .add-col .btn, .body-signin .card .add-col .btn {
+  height: 50%;
+}
+
+.body-login, .body-signin {
+  padding: 10%;
+  display: flex;
+  justify-content: center;
+}
+.body-login .right, .body-signin .right {
+  background-image: url(../img/cover.jpg);
+  background-size: cover;
+}
+.body-login a, .body-signin a {
+  color: #5061ce;
+}
+.body-login a:hover, .body-signin a:hover {
+  color: #f44147;
+}
+.body-login .card, .body-signin .card {
+  width: 65%;
+}
+.body-login .card h4, .body-signin .card h4 {
+  font-weight: bold;
+  margin-bottom: 30%;
+  color: #383376;
+}
+.body-login .card .row, .body-signin .card .row {
+  padding-right: 15px;
+  padding-left: 15px;
+  justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .body-login, .body-signin {
+    padding: 10% 0%;
+  }
+  .body-login .right, .body-signin .right {
+    display: none;
+  }
+  .body-login .card, .body-signin .card {
+    width: 90%;
+  }
+  .body-login .row, .body-signin .row {
+    justify-content: space-evenly;
+    margin-top: 20%;
+  }
+}
+.body-signin .card h4 {
+  margin-bottom: 5%;
+}
+.body-signin .card .row {
+  margin-top: 5%;
+}
+
+@media (max-width: 800px) {
+  .body-signin {
+    padding: 10% 0%;
+  }
+  .body-signin .right {
+    display: none;
+  }
+  .body-signin .card {
+    width: 90%;
+  }
+  .body-signin .row {
+    justify-content: space-evenly;
+    margin-top: 20%;
+  }
+}
+.my-form .form-control, .body-profile .form-control, .body-login .card .form-control, .body-signin .card .form-control {
+  border: 0 transparent;
+  background-color: transparent;
+  border-bottom: 2px solid #ced4da;
+  border-radius: 0rem;
+}
+.my-form input[type=password]:focus, .body-profile input[type=password]:focus, .body-login .card input[type=password]:focus, .body-signin .card input[type=password]:focus, .my-form input[type=text]:focus, .body-profile input[type=text]:focus, .body-login .card input[type=text]:focus, .body-signin .card input[type=text]:focus, .my-form input[type=email]:focus, .body-profile input[type=email]:focus, .body-login .card input[type=email]:focus, .body-signin .card input[type=email]:focus, .my-form button[type=submit]:focus, .body-profile button[type=submit]:focus, .body-login .card button[type=submit]:focus, .body-signin .card button[type=submit]:focus {
+  border-color: #fdd656;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset, 0 0 10px #fff9f1;
+  outline: 0 none;
+}
+.my-form .btn-primary, .body-profile .btn-primary, .body-login .card .btn-primary, .body-signin .card .btn-primary {
+  background-color: #5061ce;
+  border-color: #5061ce;
+  width: 30%;
+}
+.my-form .add-col, .body-profile .add-col, .body-login .card .add-col, .body-signin .card .add-col {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+.my-form .add-col .btn, .body-profile .add-col .btn, .body-login .card .add-col .btn, .body-signin .card .add-col .btn {
+  height: 50%;
+}
+
+.body-profile {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+}
+.body-profile h5 {
+  color: #383376;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+.body-profile .right {
+  width: 30%;
+}
+.body-profile .right-edit {
+  width: 60%;
+}
+.body-profile .right-edit p {
+  padding: 0;
+  margin: 0px 15px;
+}
+.body-profile .right-edit input {
+  margin-bottom: 3rem;
+}
+.body-profile .right-edit .font-blue {
+  color: #0078d7;
+}
+.body-profile .left {
+  width: 50%;
+}
+.body-profile .card {
+  border: 1px solid transparent;
+}
+.body-profile .profile-data {
+  width: 80%;
+  background-color: #fdd656;
+  margin-bottom: 2rem;
+  height: 2.5rem;
+  padding-left: 0.5rem;
+  justify-content: center;
+}
+.body-profile .profile-interactions {
+  padding: 5%;
+  flex-direction: inherit;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.body-profile .interaction {
+  width: 15rem;
+  padding: 0.5rem;
+  margin-right: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+.body-profile .interaction .date {
+  text-align: end;
+}
+.body-profile .interaction .row {
+  padding: 0;
+  margin: 0;
+}
+.body-profile .interaction h6 {
+  color: #383376;
+  font-weight: bold;
+  line-height: inherit;
+  margin: 0;
+}
+.body-profile .interaction p {
+  margin: 0 2px;
+}
+.body-profile .i-red {
+  color: #f44147;
+  background-color: #fff2f2;
+}
+.body-profile .i-blue {
+  color: #0078d7;
+  background-color: #eefbff;
+}
+.body-profile .i-green {
+  color: #2baf5a;
+  background-color: #edffec;
+}
+.body-profile .i-yellow {
+  color: #fdd656;
+  background-color: #fff9f1;
+}
+.body-profile .btn-primary {
+  display: flex;
+  justify-content: center;
+}
+.body-profile .form-group {
+  background-color: transparent;
+}
+
+@media (max-width: 1130px) {
+  .body-profile .row {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  .body-profile .row .right, .body-profile .row .left, .body-profile .row .profile-interactions {
+    width: 92%;
+  }
+  .body-profile .row .right .btn, .body-profile .row .left .btn, .body-profile .row .profile-interactions .btn {
+    margin-bottom: 2rem;
+  }
+}
+.footer-bg {
+  background-color: #343a40 !important;
+}
+.footer-bg .ml-10 {
+  margin-left: 10rem !important;
+}
+.footer-bg .ml-10 .no-text-deco {
+  text-decoration: none;
+}
+.footer-bg .ml-10 .margin-b-p {
+  margin-bottom: 0.2rem;
+}
+.footer-bg .ml-10 .footer-text {
+  font-size: 12px;
+  color: #8c949c;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.main-container {
+  margin: 0;
+}
+
+.body-content, .body-content-ext {
+  width: 80%;
+  background-color: #eff5fb;
+}
+.body-content-ext {
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .body-content, .body-content-ext {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
