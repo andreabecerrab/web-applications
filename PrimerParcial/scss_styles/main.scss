@@ -14,9 +14,16 @@ body {
   height: 100%;
 }
 
+.d-block {
+  border-radius: 2.2rem;
+}
+
 .main-container {
-  // height: 90%;
+  height: 70%;
   margin: 0;
+  &-index {
+    margin: 0;
+  }
 }
 .body-content {
   width: 80%;

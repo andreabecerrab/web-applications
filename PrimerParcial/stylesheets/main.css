@@ -79,7 +79,7 @@
 }
 
 .body-login, .body-signin {
-  padding: 10%;
+  padding: 5%;
   display: flex;
   justify-content: center;
 }
@@ -148,7 +148,7 @@
 }
 
 .body-login, .body-signin {
-  padding: 10%;
+  padding: 5%;
   display: flex;
   justify-content: center;
 }
@@ -412,7 +412,15 @@ body {
   height: 100%;
 }
 
+.d-block {
+  border-radius: 2.2rem;
+}
+
 .main-container {
+  height: 70%;
+  margin: 0;
+}
+.main-container-index {
   margin: 0;
 }
 
