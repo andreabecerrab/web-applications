@@ -53,33 +53,33 @@
   font-size: 14px;
 }
 
-.my-form .form-control, .body-profile .form-control, .body-login .card .form-control, .body-signin .card .form-control {
+.my-form .form-control, .card-width .form-control, .body-profile .form-control, .body-login .card .form-control, .body-signin .card .form-control {
   border: 0 transparent;
   background-color: transparent;
   border-bottom: 2px solid #ced4da;
   border-radius: 0rem;
 }
-.my-form input[type=password]:focus, .body-profile input[type=password]:focus, .body-login .card input[type=password]:focus, .body-signin .card input[type=password]:focus, .my-form input[type=text]:focus, .body-profile input[type=text]:focus, .body-login .card input[type=text]:focus, .body-signin .card input[type=text]:focus, .my-form input[type=email]:focus, .body-profile input[type=email]:focus, .body-login .card input[type=email]:focus, .body-signin .card input[type=email]:focus, .my-form button[type=submit]:focus, .body-profile button[type=submit]:focus, .body-login .card button[type=submit]:focus, .body-signin .card button[type=submit]:focus {
+.my-form input[type=password]:focus, .card-width input[type=password]:focus, .body-profile input[type=password]:focus, .body-login .card input[type=password]:focus, .body-signin .card input[type=password]:focus, .my-form input[type=text]:focus, .card-width input[type=text]:focus, .body-profile input[type=text]:focus, .body-login .card input[type=text]:focus, .body-signin .card input[type=text]:focus, .my-form input[type=email]:focus, .card-width input[type=email]:focus, .body-profile input[type=email]:focus, .body-login .card input[type=email]:focus, .body-signin .card input[type=email]:focus, .my-form button[type=submit]:focus, .card-width button[type=submit]:focus, .body-profile button[type=submit]:focus, .body-login .card button[type=submit]:focus, .body-signin .card button[type=submit]:focus {
   border-color: #fdd656;
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset, 0 0 10px #fff9f1;
   outline: 0 none;
 }
-.my-form .btn-primary, .body-profile .btn-primary, .body-login .card .btn-primary, .body-signin .card .btn-primary {
+.my-form .btn-primary, .card-width .btn-primary, .body-profile .btn-primary, .body-login .card .btn-primary, .body-signin .card .btn-primary {
   background-color: #5061ce;
   border-color: #5061ce;
   width: 30%;
 }
-.my-form .add-col, .body-profile .add-col, .body-login .card .add-col, .body-signin .card .add-col {
+.my-form .add-col, .card-width .add-col, .body-profile .add-col, .body-login .card .add-col, .body-signin .card .add-col {
   display: flex;
   justify-content: space-evenly;
   align-items: flex-end;
 }
-.my-form .add-col .btn, .body-profile .add-col .btn, .body-login .card .add-col .btn, .body-signin .card .add-col .btn {
+.my-form .add-col .btn, .card-width .add-col .btn, .body-profile .add-col .btn, .body-login .card .add-col .btn, .body-signin .card .add-col .btn {
   height: 50%;
 }
 
 .body-login, .body-signin {
-  padding: 10%;
+  padding: 5%;
   display: flex;
   justify-content: center;
 }
@@ -122,33 +122,33 @@
     margin-top: 20%;
   }
 }
-.my-form .form-control, .body-profile .form-control, .body-login .card .form-control, .body-signin .card .form-control {
+.my-form .form-control, .card-width .form-control, .body-profile .form-control, .body-login .card .form-control, .body-signin .card .form-control {
   border: 0 transparent;
   background-color: transparent;
   border-bottom: 2px solid #ced4da;
   border-radius: 0rem;
 }
-.my-form input[type=password]:focus, .body-profile input[type=password]:focus, .body-login .card input[type=password]:focus, .body-signin .card input[type=password]:focus, .my-form input[type=text]:focus, .body-profile input[type=text]:focus, .body-login .card input[type=text]:focus, .body-signin .card input[type=text]:focus, .my-form input[type=email]:focus, .body-profile input[type=email]:focus, .body-login .card input[type=email]:focus, .body-signin .card input[type=email]:focus, .my-form button[type=submit]:focus, .body-profile button[type=submit]:focus, .body-login .card button[type=submit]:focus, .body-signin .card button[type=submit]:focus {
+.my-form input[type=password]:focus, .card-width input[type=password]:focus, .body-profile input[type=password]:focus, .body-login .card input[type=password]:focus, .body-signin .card input[type=password]:focus, .my-form input[type=text]:focus, .card-width input[type=text]:focus, .body-profile input[type=text]:focus, .body-login .card input[type=text]:focus, .body-signin .card input[type=text]:focus, .my-form input[type=email]:focus, .card-width input[type=email]:focus, .body-profile input[type=email]:focus, .body-login .card input[type=email]:focus, .body-signin .card input[type=email]:focus, .my-form button[type=submit]:focus, .card-width button[type=submit]:focus, .body-profile button[type=submit]:focus, .body-login .card button[type=submit]:focus, .body-signin .card button[type=submit]:focus {
   border-color: #fdd656;
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset, 0 0 10px #fff9f1;
   outline: 0 none;
 }
-.my-form .btn-primary, .body-profile .btn-primary, .body-login .card .btn-primary, .body-signin .card .btn-primary {
+.my-form .btn-primary, .card-width .btn-primary, .body-profile .btn-primary, .body-login .card .btn-primary, .body-signin .card .btn-primary {
   background-color: #5061ce;
   border-color: #5061ce;
   width: 30%;
 }
-.my-form .add-col, .body-profile .add-col, .body-login .card .add-col, .body-signin .card .add-col {
+.my-form .add-col, .card-width .add-col, .body-profile .add-col, .body-login .card .add-col, .body-signin .card .add-col {
   display: flex;
   justify-content: space-evenly;
   align-items: flex-end;
 }
-.my-form .add-col .btn, .body-profile .add-col .btn, .body-login .card .add-col .btn, .body-signin .card .add-col .btn {
+.my-form .add-col .btn, .card-width .add-col .btn, .body-profile .add-col .btn, .body-login .card .add-col .btn, .body-signin .card .add-col .btn {
   height: 50%;
 }
 
 .body-login, .body-signin {
-  padding: 10%;
+  padding: 5%;
   display: flex;
   justify-content: center;
 }
@@ -213,28 +213,28 @@
     margin-top: 20%;
   }
 }
-.my-form .form-control, .body-profile .form-control, .body-login .card .form-control, .body-signin .card .form-control {
+.my-form .form-control, .card-width .form-control, .body-profile .form-control, .body-login .card .form-control, .body-signin .card .form-control {
   border: 0 transparent;
   background-color: transparent;
   border-bottom: 2px solid #ced4da;
   border-radius: 0rem;
 }
-.my-form input[type=password]:focus, .body-profile input[type=password]:focus, .body-login .card input[type=password]:focus, .body-signin .card input[type=password]:focus, .my-form input[type=text]:focus, .body-profile input[type=text]:focus, .body-login .card input[type=text]:focus, .body-signin .card input[type=text]:focus, .my-form input[type=email]:focus, .body-profile input[type=email]:focus, .body-login .card input[type=email]:focus, .body-signin .card input[type=email]:focus, .my-form button[type=submit]:focus, .body-profile button[type=submit]:focus, .body-login .card button[type=submit]:focus, .body-signin .card button[type=submit]:focus {
+.my-form input[type=password]:focus, .card-width input[type=password]:focus, .body-profile input[type=password]:focus, .body-login .card input[type=password]:focus, .body-signin .card input[type=password]:focus, .my-form input[type=text]:focus, .card-width input[type=text]:focus, .body-profile input[type=text]:focus, .body-login .card input[type=text]:focus, .body-signin .card input[type=text]:focus, .my-form input[type=email]:focus, .card-width input[type=email]:focus, .body-profile input[type=email]:focus, .body-login .card input[type=email]:focus, .body-signin .card input[type=email]:focus, .my-form button[type=submit]:focus, .card-width button[type=submit]:focus, .body-profile button[type=submit]:focus, .body-login .card button[type=submit]:focus, .body-signin .card button[type=submit]:focus {
   border-color: #fdd656;
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset, 0 0 10px #fff9f1;
   outline: 0 none;
 }
-.my-form .btn-primary, .body-profile .btn-primary, .body-login .card .btn-primary, .body-signin .card .btn-primary {
+.my-form .btn-primary, .card-width .btn-primary, .body-profile .btn-primary, .body-login .card .btn-primary, .body-signin .card .btn-primary {
   background-color: #5061ce;
   border-color: #5061ce;
   width: 30%;
 }
-.my-form .add-col, .body-profile .add-col, .body-login .card .add-col, .body-signin .card .add-col {
+.my-form .add-col, .card-width .add-col, .body-profile .add-col, .body-login .card .add-col, .body-signin .card .add-col {
   display: flex;
   justify-content: space-evenly;
   align-items: flex-end;
 }
-.my-form .add-col .btn, .body-profile .add-col .btn, .body-login .card .add-col .btn, .body-signin .card .add-col .btn {
+.my-form .add-col .btn, .card-width .add-col .btn, .body-profile .add-col .btn, .body-login .card .add-col .btn, .body-signin .card .add-col .btn {
   height: 50%;
 }
 
@@ -343,13 +343,84 @@
     margin-bottom: 2rem;
   }
 }
+.bacnav {
+  background-color: #edffec;
+}
+
+.footer-bg {
+  background-color: #343a40 !important;
+}
+.footer-bg .ml-10 {
+  margin-left: 10rem !important;
+}
+.footer-bg .ml-10 .no-text-deco {
+  text-decoration: none;
+}
+.footer-bg .ml-10 .margin-b-p {
+  margin-bottom: 0.2rem;
+}
+.footer-bg .ml-10 .footer-text {
+  font-size: 12px;
+  color: #8c949c;
+}
+
+.card-width {
+  max-width: 90%;
+  margin-left: 5%;
+}
+.card-width .poster {
+  margin-top: 10% !important;
+}
+.card-width .map-image {
+  width: 60%;
+}
+.card-width .blue-user-color {
+  background-color: #0078d7;
+  width: 3rem;
+  height: 3rem;
+}
+.card-width .yellow-user-color {
+  background-color: #fdd656;
+  width: 3rem;
+  height: 3rem;
+}
+.card-width .green-user-color {
+  background-color: #2baf5a;
+  width: 3rem;
+  height: 3rem;
+}
+.card-width .circle {
+  border-radius: 100%;
+}
+
+.mt-10 {
+  margin-top: 10rem;
+}
+
+.img-width {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.controller-color {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 html,
 body {
   margin: 0;
   height: 100%;
 }
 
+.d-block {
+  border-radius: 2.2rem;
+}
+
 .main-container {
+  height: 70%;
+  margin: 0;
+}
+.main-container-index {
   margin: 0;
 }
 
