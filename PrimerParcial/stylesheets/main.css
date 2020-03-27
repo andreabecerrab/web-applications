@@ -389,6 +389,19 @@
   border-radius: 100%;
 }
 
+.mt-10 {
+  margin-top: 10rem;
+}
+
+.img-width {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.controller-color {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 html,
 body {
   margin: 0;
