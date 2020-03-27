@@ -2,15 +2,19 @@
   background-color: #ffffff;
   padding-top: 15px;
 }
-.tw-sidebar h5 {
+.tw-sidebar p {
+  margin: 0;
+}
+.tw-sidebar .name {
   color: #383376;
   font-weight: bold;
   margin-right: 0.5rem;
 }
-.tw-sidebar h6 {
+.tw-sidebar .handle {
   color: #0078d7;
   font-weight: bold;
-  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
 }
 .tw-sidebar .row {
   justify-content: space-between;
@@ -34,9 +38,6 @@
 .tw-sidebar .tweets .card-body .row {
   margin: 0;
   justify-content: inherit;
-}
-.tw-sidebar .tweets .card-body p {
-  margin: 0;
 }
 .tw-sidebar .tweets .card-body .material-icons.md-18 {
   font-size: 18px;
