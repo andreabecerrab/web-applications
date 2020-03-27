@@ -1,0 +1,33 @@
+@import "variables.sass";
+@import "sidebar.sass";
+@import "login.sass";
+@import "signin.sass";
+@import "profile.sass";
+//agregar los otros styles
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.main-container {
+  // height: 90%;
+  margin: 0;
+}
+.body-content {
+  width: 80%;
+  background-color: #eff5fb;
+  &-ext {
+    @extend .body-content;
+    width: 100%;
+  }
+}
+.tw-sidebar {
+  @extend .tw-sidebar;
+}
+
+@media (max-width: 800px) {
+  .body-content {
+    width: 100%;
+  }
+}

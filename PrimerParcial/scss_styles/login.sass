@@ -1,0 +1,35 @@
+@import "variables"
+@import "form.sass"
+
+.body-login
+    padding: 10%
+    display: flex
+    justify-content: center
+    .right
+        background-image: url(../img/cover.jpg)
+        background-size: cover
+    a
+        color: $header-color
+    a:hover
+        color: $color-red
+    .card
+        width: 65%
+        h4 
+            font-weight: bold
+            margin-bottom: 30%
+            color: $title-font
+        .row
+            padding-right: 15px
+            padding-left: 15px
+            justify-content: space-between
+        @extend .my-form
+@media ( max-width: $breakpoint-m )  
+    .body-login
+        padding: 10% 0%
+        .right
+            display: none
+        .card
+            width: 90%
+        .row 
+            justify-content: space-evenly
+            margin-top: 20%

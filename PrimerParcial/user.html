@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="stylesheets/main.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Corre la voz</title>
+  </head>
+  <body>
+    <nav class="nav-header">MENU</nav>
+    <div class=" row main-container">
+      <!-- user profile -->
+      <div class="body-content-ext body-profile">
+        <div class="row">
+          <h5>Perfil Usuario</h5>
+        </div>
+        <div class="row">
+          <!-- profile data -->
+          <div class="right">
+            <h6>Nombre</h6>
+            <div class="card profile-data">Andrea</div>
+            <h6>Apellido</h6>
+            <div class="card profile-data">Becerra</div>
+            <h6>Correo</h6>
+            <div class="card profile-data">andrea@gmail.com</div>
+            <h6>Fecha de nacimiento</h6>
+            <div class="card profile-data">01/09/1998</div>
+            <h6>Estado</h6>
+            <div class="card profile-data">CDMX</div>
+            <button
+              class="btn btn-primary"
+              onclick="window.location.href ='profile-edit.html';"
+            >
+              Editar
+              <i class="material-icons md-dark">edit</i>
+            </button>
+          </div>
+          <!-- profile interactions -->
+          <div class="col left">
+            <h5>Interraciones</h5>
+            <div class="row" style="margin: 0;">
+              <p>Total de interacciones:</p>
+              <p class=" font-weight-bold" style="margin-left: 15px;">8</p>
+            </div>
+
+            <!-- [] interactions -->
+            <div class="card profile-interactions">
+              <!-- [] interection -->
+              <!-- huelga -->
+              <div class="card interaction i-red">
+                <div class="row">
+                  <p class="font-weight-bold">1</p>
+                  <h6>#TituloDeHuelga</h6>
+                </div>
+                <p class="date">10/03/2020</p>
+              </div>
+              <!-- huelga -->
+              <div class="card interaction i-blue">
+                <div class="row">
+                  <p class="font-weight-bold">2</p>
+                  <h6>#TituloDeHuelga</h6>
+                </div>
+                <p class="date">10/03/2020</p>
+              </div>
+              <!-- huelga -->
+              <div class="card interaction i-blue">
+                <div class="row">
+                  <p class="font-weight-bold">3</p>
+                  <h6>#TituloDeHuelga</h6>
+                </div>
+                <p class="date">10/03/2020</p>
+              </div>
+              <!-- huelga -->
+              <div class="card interaction i-yellow">
+                <div class="row">
+                  <p class="font-weight-bold">4</p>
+                  <h6>#TituloDeHuelga</h6>
+                </div>
+                <p class="date">10/03/2020</p>
+              </div>
+              <!-- huelga -->
+              <div class="card interaction i-green">
+                <div class="row">
+                  <p class="font-weight-bold">6</p>
+                  <h6>#TituloDeHuelga</h6>
+                </div>
+                <p class="date">10/03/2020</p>
+              </div>
+              <!-- huelga -->
+              <div class="card interaction i-red">
+                <div class="row">
+                  <p class="font-weight-bold">7</p>
+                  <h6>#TituloDeHuelga</h6>
+                </div>
+                <p class="date">10/03/2020</p>
+              </div>
+              <!-- huelga -->
+              <div class="card interaction i-green">
+                <div class="row">
+                  <p class="font-weight-bold">8</p>
+                  <h6>#TituloDeHuelga</h6>
+                </div>
+                <p class="date">10/03/2020</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>FOOTER</footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </body>
+</html>
