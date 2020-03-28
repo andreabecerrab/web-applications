@@ -140,6 +140,9 @@ input[type=password]:focus, input[type=text]:focus, input[type=email]:focus, but
   flex-direction: column;
   justify-content: center;
 }
+.body-login .card .registro {
+  margin-bottom: 5%;
+}
 
 @media (max-width: 800px) {
   .body-login {
@@ -215,6 +218,9 @@ input[type=password]:focus, input[type=text]:focus, input[type=email]:focus, but
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.body-login .card .registro {
+  margin-bottom: 5%;
 }
 
 @media (max-width: 800px) {
@@ -407,12 +413,12 @@ input[type=password]:focus, input[type=text]:focus, input[type=email]:focus, but
   flex-direction: column;
 }
 
-.bacnav {
-  background-color: #5061ce;
-}
-
 .navbar-light .navbar-nav .nav-link {
   color: #ffffff;
+}
+
+.bacnav {
+  background-color: #5061ce;
 }
 
 @media (max-width: 800px) {
@@ -496,6 +502,7 @@ html,
 body {
   margin: 0;
   height: 100%;
+  background-color: #eff5fb;
 }
 
 .d-block {
@@ -520,11 +527,9 @@ footer {
 
 .body-content {
   width: 80%;
-  background-color: #eff5fb;
 }
 .body-content-ext {
   width: 80%;
-  background-color: #eff5fb;
   width: 100%;
 }
 
