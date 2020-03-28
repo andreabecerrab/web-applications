@@ -65,6 +65,16 @@
                   trayecto rumbo al Zócalo capitalino. Ese día se conmemora el
                   Día Internacional de la Mujer Trabajadora 2020.
                 </p>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-toggle="snackbar"
+                  data-content="Free fried chicken here! <a href='https://example.org' class='btn btn-info'>Check it out</a>"
+                  data-html-allowed="true"
+                  data-timeout="0"
+                >
+                  Snackbar
+                </button>
                 <img
                   src="img/mapa-marcha.png"
                   class="card-img map-image"
@@ -279,8 +289,27 @@
         </div>
       </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
+      integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- SnackbarJS plugin -->
+    <script src="https://cdn.rawgit.com/FezVrasta/snackbarjs/1.1.0/dist/snackbar.min.js"></script>
+
+    <script
+      src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
+      integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $("body").bootstrapMaterialDesign();
+    </script>
   </body>
 </html>
