@@ -73,7 +73,24 @@
                 <p class="card-text">
                   <small class="text-muted">Last updated 3 mins ago</small>
                 </p>
+
+                <button type="button" class="btn btn-primary" id="myBtn">Asisitiré</button>
+                
+                <div class="toast mt-3">
+                    <div class="toast-header">
+                      ¡Gracias por participar!
+                    </div>
+                   
+                </div>
+            
+              
+              
+              
               </div>
+
+
+
+
             </div>
           </div>
         </div>
@@ -141,6 +158,8 @@
                 <p>4</p>
                 <i class="material-icons md-dark md-18">favorite_border</i>
               </div>
+            
+            
             </div>
           </div>
           <!-- tweet -->
@@ -282,5 +301,15 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+
+    <script>
+      $(document).ready(function(){
+        $('#myBtn').click(function(){
+          $('.toast').toast({delay: 2000});
+          $('.toast').toast('show');
+        });
+      });
+      </script>
   </body>
 </html>
