@@ -1,0 +1,21 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+//agregar los otros styles
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+nav {
+  height: 10%;
+}
+
+.main-container {
+  height: 70%;
+  @extend .row;
+}
+
+footer {
+  height: 20%;
+}

@@ -1,13 +1,14 @@
 @import "variables.sass";
 @import "sidebar.sass";
+@import "form.sass";
 @import "login.sass";
-@import "signin.sass";
 @import "profile.sass";
 @import "huelgas.sass";
 @import "menu.sass";
 @import "footer.sass";
 @import "single-strike.sass";
 @import "validator.sass";
+<<<<<<< HEAD
 @import "index.sass";
 
 
@@ -59,3 +60,6 @@ footer {
     height: fit-content;
   }
 }
+=======
+@import "bodypages.sass";
+>>>>>>> edf5547ba236bbdc47f041172d6a23e0d6d6c53f
