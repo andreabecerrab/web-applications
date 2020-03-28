@@ -351,6 +351,10 @@
 .body-huelgas img {
   border-radius: 2rem;
 }
+.body-huelgas .col-sm {
+  align-items: center;
+  text-align: center;
+}
 
 .body-content .container .col-sm, .body-content-ext .container .col-sm {
   margin-bottom: 3rem;
