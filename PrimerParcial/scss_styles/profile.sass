@@ -65,24 +65,24 @@
         &-yellow
             color: $color-yellow
             background-color: $pastel-yellow
-    @extend .my-form
-    .btn-primary
-        display: flex
-        justify-content: center
-    .form-group
-        background-color: transparent
+
+        .btn-primary
+            display: flex
+            justify-content: center
+        .form-group
+            background-color: transparent
     
 @media ( max-width: $breakpoint-l)  
     .body-profile
         .row
-            flex-direction: column
+            flex-direction: row
             align-items: center
             margin: 0
-            .right, .left, .profile-interactions
-                width: 92%
-                .btn
-                    margin-bottom: 2rem
-    
+        .right, .left, .profile-interactions
+            width: 92%
+            .btn
+                margin-bottom: 2rem
+     
     
         
     
