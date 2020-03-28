@@ -6,16 +6,9 @@
 @import "index.sass";
 @import "huelgas.sass";
 @import "menu.sass";
-
-
 @import "footer.sass";
 @import "single-strike.sass";
 @import "validator.sass";
-
-
-
-
-
 
 //agregar los otros styles
 html,
@@ -50,5 +43,8 @@ body {
 @media (max-width: 800px) {
   .body-content {
     width: 100%;
+  }
+  .main-container {
+    height: fit-content;
   }
 }
