@@ -344,10 +344,6 @@
     margin-bottom: 2rem;
   }
 }
-.bacnav {
-  background-color: #edffec;
-}
-
 .body-huelgas img {
   border-radius: 2rem;
 }
@@ -360,6 +356,14 @@
   margin-bottom: 3rem;
   display: flex;
   flex-direction: column;
+}
+
+.bacnav {
+  background-color: #5061ce;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
 }
 
 @media (max-width: 800px) {
