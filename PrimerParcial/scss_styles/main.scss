@@ -9,56 +9,9 @@
 @import "single-strike.sass";
 @import "validator.sass";
 @import "index.sass";
-
-
-
-//agregar los otros styles
-html,
-body {
-  margin: 0;
-  height: 100%;
-}
-
-.d-block {
-  border-radius: 2.2rem;
-}
-nav {
-  height: 10%;
-}
-footer {
-  height: 20%;
-}
-.main-container {
-  height: 70%;
-  margin: 0;
-  &-index {
-    margin: 0;
-  }
-}
-.body-content {
-  width: 80%;
-  background-color: #eff5fb;
-  &-ext {
-    @extend .body-content;
-    width: 100%;
-  }
-}
-.tw-sidebar {
-  @extend .tw-sidebar;
-}
-
-@media (max-width: 800px) {
-  .body-content {
-    width: 100%;
-  }
-  .main-container {
-    height: fit-content;
-  }
-  nav,
-  footer {
-    height: fit-content;
-  }
-}
 @import "bodypages.sass";
+<<<<<<< HEAD
 @import "bodypages.sass";
 @import "snackbar.sass";
+=======
+>>>>>>> ea411225a027704a008b8ce6c9802a083143885d
