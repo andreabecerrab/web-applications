@@ -5,17 +5,18 @@ body
     margin: 0
     height: 100%
     background-color: $background-color
+    display: flex
+    flex-direction: column
 .d-block 
     border-radius: 2.2rem
 nav 
     height: 10%
-footer 
-    height: 20%
 .main-container 
     height: 70%
     margin: 0
     &-index
         margin: 0
+        flex: 1 0 auto
 .body-content 
     width: 80%
     &-ext
@@ -31,6 +32,7 @@ footer
     nav,
     footer
         height: fit-content
+        flex-shrink: 0
   
 
   

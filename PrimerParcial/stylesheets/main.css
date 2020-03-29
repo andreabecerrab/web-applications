@@ -383,24 +383,23 @@ input[type=password]:focus, input[type=text]:focus, input[type=email]:focus, but
   background-color: #5061ce;
 }
 
-@media (max-width: 800px) {
-  .navbar-nav {
-    flex-direction: row;
-  }
-
-  .logo {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .bacnav {
-    flex-direction: row;
-  }
-
-  .dropdown-toggle {
-    padding: 0;
-  }
+.navbar-nav {
+  flex-direction: row;
 }
+
+.logo {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.bacnav {
+  flex-direction: row;
+}
+
+.dropdown-toggle {
+  padding: 0;
+}
+
 .footer-bg {
   background-color: #343a40 !important;
 }
@@ -465,6 +464,8 @@ body {
   margin: 0;
   height: 100%;
   background-color: #eff5fb;
+  display: flex;
+  flex-direction: column;
 }
 
 .d-block {
@@ -475,16 +476,13 @@ nav {
   height: 10%;
 }
 
-footer {
-  height: 20%;
-}
-
 .main-container {
   height: 70%;
   margin: 0;
 }
 .main-container-index {
   margin: 0;
+  flex: 1 0 auto;
 }
 
 .body-content {
@@ -507,32 +505,8 @@ footer {
   nav,
 footer {
     height: fit-content;
+    flex-shrink: 0;
   }
-}
-.snackbar-content {
-  display: block;
-  padding: 0.8rem 1.5rem;
-  margin-top: 3px;
-  font-size: 0.9rem;
-  color: #fff;
-  background-color: #323232;
-  border-radius: 2px;
-}
-
-.snackbar.snackbar-opened {
-  max-height: 100px;
-  opacity: 1;
-  transition: transform 0.25s cubic-bezier(0, 0, 0.2, 1), opacity 0s 0s, max-height 0.25s;
-  transform: translateY(0);
-}
-
-@media (min-width: 576px) {
-  #snackbar-container {
-    min-width: 280px;
-  }
-}
-.snackbar {
-  display: inline-block;
 }
 
 /*# sourceMappingURL=main.css.map */
