@@ -318,7 +318,7 @@ input[type=password]:focus, input[type=text]:focus, input[type=email]:focus, but
   width: 150px;
   height: 150px;
   overflow: hidden;
-  position: absolute;
+  position: fixed;
 }
 
 .ribbon::before,
@@ -381,6 +381,7 @@ input[type=password]:focus, input[type=text]:focus, input[type=email]:focus, but
 
 .bacnav {
   background-color: #5061ce;
+  height: auto;
 }
 
 .navbar-nav {
