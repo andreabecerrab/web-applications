@@ -489,8 +489,11 @@ nav {
   width: 80%;
 }
 .body-content-ext {
-  width: 80%;
   width: 100%;
+}
+
+.spacer {
+  height: 70%;
 }
 
 @media (max-width: 800px) {
