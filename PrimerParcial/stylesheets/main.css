@@ -464,6 +464,8 @@ body {
   margin: 0;
   height: 100%;
   background-color: #eff5fb;
+  display: flex;
+  flex-direction: column;
 }
 
 .d-block {
@@ -480,6 +482,7 @@ nav {
 }
 .main-container-index {
   margin: 0;
+  flex: 1 0 auto;
 }
 
 .body-content {
@@ -502,6 +505,7 @@ nav {
   nav,
 footer {
     height: fit-content;
+    flex-shrink: 0;
   }
 }
 
