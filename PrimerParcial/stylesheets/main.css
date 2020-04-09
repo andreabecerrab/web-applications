@@ -384,23 +384,24 @@ input[type=password]:focus, input[type=text]:focus, input[type=email]:focus, but
   height: auto;
 }
 
-.navbar-nav {
-  flex-direction: row;
-}
+@media (max-width: 800px) {
+  .navbar-nav {
+    flex-direction: row;
+  }
 
-.logo {
-  margin-left: 0;
-  margin-right: 0;
-}
+  .logo {
+    margin-left: 0;
+    margin-right: 0;
+  }
 
-.bacnav {
-  flex-direction: row;
-}
+  .bacnav {
+    flex-direction: row-reverse;
+  }
 
-.dropdown-toggle {
-  padding: 0;
+  .dropdown-toggle {
+    padding: 0;
+  }
 }
-
 .footer-bg {
   background-color: #343a40 !important;
 }

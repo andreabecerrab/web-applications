@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="stylesheets/styles.css" />
+    <title>Corre la Voz</title>
+  </head>
+
+  <body>
+    <!-- NAVBAR  -->
+    <nav class="sticky-top">
+      <div class="nav">
+        <h1>Corre la Voz</h1>
+      </div>
+    </nav>
+    <!-- RIBBON  -->
+    <ribbon><span>beta</span></ribbon>
+    <!-- BODY  -->
+    <main-container>
+      <login class="logs">
+        <img-login class="img"></img-login>
+        <div class="app-col">
+          <h2>Iniciar Sesión</h2>
+          <form action="user.html">
+            <div class="form-group">
+              <label>Correo</label>
+              <input
+                type="email"
+                class="op-form-control"
+                placeholder="Ingresar correo electrónico"
+              />
+            </div>
+            <div class="form-group">
+              <label>Contraseña</label>
+              <input
+                type="password"
+                class="op-form-control"
+                placeholder=" Ingresa contraseña"
+              />
+            </div>
+            <div class="index-row">
+              <a class="font-light" href="signin.html">Registrarse</a>
+              <button type="submit" class="ln-btn">
+                Entrar
+              </button>
+            </div>
+          </form>
+        </div>
+      </login>
+    </main-container>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="stylesheets/styles.css" />
+    <link rel="stylesheet" href="stylesheets/app.css" />
+    <title>Corre la Voz</title>
+  </head>
+
+  <body>
+    <!-- NAVBAR  -->
+    <nav class="sticky-top" style="height: 3rem; border-radius: 0;">
+      <div class="nav">
+        <h1>Corre la Voz</h1>
+      </div>
+    </nav>
+    <!-- NAVBAR  -->
+    <nav id="sidebar" class="active">
+      <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn">
+          <i class="material-icons md-dark">reorder</i>
+        </button>
+      </div>
+      <!-- SIDEBAR CONTENT  -->
+      <div class="sidebar-content">
+        <h1>Corre la Voz</h1>
+        <!-- LINKS  -->
+        <ul class="nav" role="tablist">
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="pills-profile-tab"
+              data-toggle="pill"
+              href="#pills-profile"
+              role="tab"
+              aria-controls="pills-profile"
+              aria-selected="false"
+              >Perfil</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              id="pills-home-tab"
+              data-toggle="pill"
+              href="#pills-home"
+              role="tab"
+              aria-controls="pills-home"
+              aria-selected="true"
+              >Agregar
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="pills-admin-tab"
+              data-toggle="pill"
+              href="#pills-admin"
+              role="tab"
+              aria-controls="pills-admin"
+              aria-selected="true"
+              >Marchas</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="login.html">Cerrar sesión</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- RIBBON  -->
+    <ribbon><span>beta</span></ribbon>
+    <!-- BODY  -->
+    <div class="tab-content" id="pills-tabContent">
+      <!-- PERFIL-->
+      <profile
+        class="tab-pane fade"
+        id="pills-profile"
+        role="tabpanel"
+        aria-labelledby="pills-profile-tab"
+      >
+        <h2>Perfil</h2>
+        <profile-data>
+          <h6>Nombre</h6>
+          <div class="card p-data">Andrea</div>
+          <h6>Apellido</h6>
+          <div class="card p-data">Becerra</div>
+          <h6>Correo</h6>
+          <div class="card p-data">andrea@gmail.com</div>
+          <h6>ID</h6>
+          <div class="card p-data">563</div>
+          <button class="my-btn">Editar</button>
+        </profile-data>
+      </profile>
+      <!-- ADD-->
+      <index-page
+        class="tab-pane fade show active"
+        id="pills-home"
+        role="tabpanel"
+        aria-labelledby="pills-home-tab"
+      >
+        <h2>Agregar marcha</h2>
+        <!-- ADD-->
+        <form>
+          <div class="form-row">
+            <div class="op-form-md">
+              <label>Nombre</label>
+              <input type="text" class="op-form-control" />
+            </div>
+            <div class="op-form-md">
+              <label>Fecha</label>
+              <input type="date" class="op-form-control" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="op-form-md">
+              <label>Descripción</label>
+              <input type="text" class="op-form-control" />
+            </div>
+            <div class="op-form-md">
+              <label>#hashtag</label>
+              <input type="text" class="op-form-control" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="op-form-md">
+              <label>Dirección incio</label>
+              <input
+                type="text"
+                class="op-form-control"
+                placeholder="Av. anibeuhoiw"
+              />
+            </div>
+            <div class="op-form-md">
+              <label>Dirección fin</label>
+              <input
+                type="text"
+                class="op-form-control"
+                placeholder="Av. anibeuhoiw"
+              />
+            </div>
+          </div>
+
+          <label class="file">Agregar imagen<input type="file" /></label>
+
+          <button type="submit" class="my-btn">Agregar</button>
+        </form>
+      </index-page>
+      <!-- ADMIN-->
+      <admin
+        class="tab-pane fade"
+        id="pills-admin"
+        role="tabpanel"
+        aria-labelledby="pills-admin-tab"
+      >
+        <h2>Marchas</h2>
+        <!-- TABLE-->
+
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">#ID</th>
+              <th scope="col">Nombre</th>
+              <th scope="col" id="date">Fecha</th>
+              <th scope="col" id="hash">#hastag</th>
+              <th scope="col">editar</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="table-row">1</th>
+              <td>Marcha nombre</td>
+              <td id="date">10/Marzo/2020</td>
+              <td id="hash">#todos</td>
+              <td class="table-row">
+                <a><i class="material-icons md-dark">create</i></a>
+                <a><i class="material-icons md-dark">delete</i></a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </admin>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#myBtn").click(function () {
+          $(".toast").toast({ delay: 1000 });
+          $(".toast").toast("show");
+        });
+      });
+    </script>
+  </body>
+</html>

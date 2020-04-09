@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="stylesheets/styles.css" />
+    <title>Corre la Voz</title>
+  </head>
+
+  <body>
+    <!-- NAVBAR  -->
+    <nav class="sticky-top">
+      <div class="nav">
+        <h1>Corre la Voz</h1>
+      </div>
+    </nav>
+    <!-- RIBBON  -->
+    <ribbon><span>beta</span></ribbon>
+    <!-- BODY  -->
+    <main-container>
+      <sigin class="logs">
+        <div class="app-sign-col">
+          <h2>Registro</h2>
+          <form action="login.html">
+            <div class="form-row">
+              <div class="op-form-md">
+                <label>Nombre</label>
+                <input type="text" class="op-form-control" />
+              </div>
+              <div class="op-form-md">
+                <label>Apellido</label>
+                <input type="text" class="op-form-control" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="op-form-md">
+                <label>Correo</label>
+                <input
+                  type="email"
+                  class="op-form-control"
+                  placeholder="usuario@email.com"
+                />
+              </div>
+              <div class="op-form-md">
+                <label>Contraseña</label>
+                <input type="password" class="op-form-control" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="gridCheck"
+                />
+                <label class="form-check-label">
+                  Acepto términos y condiciones
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="ln-btn">Registrar</button>
+          </form>
+        </div>
+      </sigin>
+    </main-container>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </body>
+</html>
