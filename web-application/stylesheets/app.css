@@ -789,6 +789,10 @@ card, other, tw-card {
   width: 40%;
 }
 
+card {
+  margin-right: 1rem;
+}
+
 .toast {
   border: transparent;
 }
@@ -967,7 +971,7 @@ a[data-toggle=collapse] {
 .tab-content index-page h3 {
   color: #f44147;
 }
-.tab-content .section-single-style {
+.tab-content .section-single-style, .tab-content index-content {
   justify-content: space-between;
   width: 100%;
 }
