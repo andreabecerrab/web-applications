@@ -1168,6 +1168,10 @@ input[type=file] {
   .tab-content .img-main, .tab-content map, .tab-content strike-content, .tab-content carousel, .tab-content twitter {
     width: 95%;
   }
+  .tab-content strike-content p {
+    max-width: 90%;
+    text-align: justify;
+  }
 
   other-section {
     display: flex;
