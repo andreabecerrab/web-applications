@@ -3232,7 +3232,7 @@ img-login {
     display: none;
   }
   .logs .app-col, .logs .app-sign-col {
-    width: 95%;
+    width: 100%;
   }
 }
 
